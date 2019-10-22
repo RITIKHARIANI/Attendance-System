@@ -8,7 +8,9 @@ int main()
 {
        do{
            int ch; 
-           printf(" \t\t\t ATTENDANCE SYSTEM USING ARDUINO\n");
+            clrscr();
+           system("cls");
+            printf(" \t\t\t ATTENDANCE SYSTEM USING ARDUINO\n");
             pritnf("PRESS 1 : SHOW THE RECORD ");
             printf("PRESS 2 : EXIT ");
             switch(ch)
